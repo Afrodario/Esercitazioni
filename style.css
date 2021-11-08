@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://raw.githubusercontent.com/Afrodario/Esercitazioni/main/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+.blackbox {
+  border: 3px none black;
+  border-radius: 15px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 5%;
+  background-color: rgba(0, 0, 0, 0.384);
+}
+
+/* Intestazione */
+header, nav {
+  text-align: center;
+}
+img {
+  width: 200px;
+}
+h2 {
+  color: rgb(11, 226, 11);
+}
+
+/* Barra di navigazione */
+nav {
+  background-color: rgb(11, 226, 11);
+  padding: 10px;
+}
+
+/* Stile delle sezioni */
+.itemcheck {
+  font-size: large;
+  font-weight: bold;
+}
+section div {
+  color: white;
+  font-size: smaller;
+  margin: 5px;
+}
+
+/* Stile stato carica */
+[class*="charge"] {
+  height: 25px;
+  border-radius: 5px;
+}
+.charge-gino {
+  width: 300px;
+  background-color: rgb(235, 173, 59);
+}
+.charge-mike {
+  width: 500px;
+  background-color: rgb(28, 204, 28);
+}
+.charge-fede {
+  width: 150px;
+  background-color: rgb(187, 19, 89);
+}
